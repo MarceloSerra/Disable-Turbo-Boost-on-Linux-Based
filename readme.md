@@ -4,6 +4,7 @@
 `git clone https://github.com/MarceloSerra/Disable-Turbo-Boost-on-Linux`
 
 Go to the folder, extract and execute chmod inside to give permissions (_*_ will give permissions to all files in the folder, but you can set to one file just changing _*_ by file name):
+
 `chmod +x *`
 
 Now it's necessary to verify if you've got an intel scaling driver (**intel_pstate**) output:
